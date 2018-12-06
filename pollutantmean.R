@@ -9,6 +9,10 @@ pollutantmean <- function(directory,pollutant,id){
   
   ## id is an integer vector indicating the monitor id 
   ## numbers to be used
+  
+  ## Return the mean of the pollutant across all monitors list
+  ## in the is vector 
+  
   directory <- paste(getwd(),"/",directory,"/",sep="")
   directory
 
